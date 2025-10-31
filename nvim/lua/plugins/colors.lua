@@ -2,11 +2,11 @@ return {
     -- One Dark theme 
     {
         "navarasu/onedark.nvim",
-        lazy = false, 
+        lazy = false,
         priority = 1000,
         config = function()
             require('onedark').setup {
-                style = 'dark', 
+                style = 'dark',
             }
         end
     },
@@ -21,9 +21,9 @@ return {
     -- Dracula theme
     {
         "dracula/vim",
-        name = "dracula", 
-        lazy = false, 
-        priority = 1000, 
+        name = "dracula",
+        lazy = false,
+        priority = 1000,
     },
 
     -- Lualine Configs (status bar)
@@ -31,7 +31,7 @@ return {
         "nvim-lualine/lualine.nvim",
         dependencies = { "nvim-tree/nvim-web-devicons" },
         opts = {
-            theme = 'auto', 
+            theme = 'auto',
         }
     },
 }
