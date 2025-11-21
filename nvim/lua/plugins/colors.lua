@@ -11,6 +11,21 @@ return {
         end
     },
 
+    -- Carbonfox
+    {
+        "EdenEast/nightfox.nvim",
+        lazy = false,
+        priority = 1000,
+    },
+
+    -- Catppuccin theme
+    {
+        "catppuccin/nvim",
+        name = "catppuccin",
+        lazy = false,
+        priority = 1000,
+    },
+
     -- Tokyo Night theme
     {
         "folke/tokyonight.nvim",
