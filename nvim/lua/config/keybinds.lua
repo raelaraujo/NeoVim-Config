@@ -6,6 +6,7 @@ local themes = {
     "dracula",
     "onedark",
     "tokyonight",
+    "catppuccin",
 }
 
 local function toggle_colorscheme()
@@ -18,7 +19,7 @@ local function toggle_colorscheme()
             break
         end
     end
-    
+
     local next_index = (current_index % #themes) + 1
     local next_theme = themes[next_index]
 
