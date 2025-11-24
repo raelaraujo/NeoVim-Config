@@ -11,14 +11,7 @@ return {
         end
     },
 
-    -- Carbonfox
-    {
-        "EdenEast/nightfox.nvim",
-        lazy = false,
-        priority = 1000,
-    },
-
-    -- Catppuccin theme
+   -- Catppuccin theme
     {
         "catppuccin/nvim",
         name = "catppuccin",
@@ -47,6 +40,7 @@ return {
         dependencies = { "nvim-tree/nvim-web-devicons" },
         opts = {
             theme = 'auto',
+            lualine_x = {'diagnostics'}
         }
     },
 }
