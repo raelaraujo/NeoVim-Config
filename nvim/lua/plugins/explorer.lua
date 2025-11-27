@@ -11,10 +11,16 @@ return {
         opts = {
             window = {
                 position = "left",
-                width = 50,
+                width = 60,
             },
             filesystem = {
-                follow_current_file = {
+               filtered_items = {
+                   visible = true,
+                   hidden_dotfiles = false,
+                   hidden_gitignored = false
+               },
+
+               follow_current_file = {
                     enabled = true,
                 },
             },
