@@ -6,9 +6,16 @@ return {
         priority = 1000,
         config = function()
             require('onedark').setup {
-                style = 'dark',
+                style = 'darker',
             }
         end
+    },
+
+    -- Kanagawa
+    {
+        "rebelot/kanagawa.nvim",
+        lazy = false,
+        priority = 1000
     },
 
    -- Catppuccin theme
