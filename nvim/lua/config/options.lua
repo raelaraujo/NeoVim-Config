@@ -4,9 +4,10 @@ vim.opt.expandtab = true      -- Replace TAB with spaces
 vim.opt.autoindent = true     -- Enable automatic indentation
 vim.opt.smarttab = true       -- Smart indentation
 vim.opt.smartindent = true    -- Smart indentation
+vim.opt.colorcolumn = "80"    -- Highlight column 80
 
 vim.opt.number = true         -- Show line numbers 
---vim.opt.relativenumber = true -- Show relative line numbers
+vim.opt.relativenumber = true -- Show relative line numbers
 vim.opt.cursorline = true     -- Highlight the current line
 vim.opt.signcolumn = "yes"    -- Always show the sign column
 vim.opt.mouse = 'a'           -- Enable mouse support

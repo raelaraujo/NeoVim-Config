@@ -20,7 +20,7 @@ return {
             "mason-org/mason.nvim",
             opts = {
                 ui = {
-                    icons = {
+                   icons = {
                         package_installed = "✓",
                         package_pending = "➜",
                         package_uninstalled = "✗",
@@ -32,14 +32,13 @@ return {
             "mason-org/mason-lspconfig.nvim",
             opts = {
                 -- Autoloads LSPs when mason-lspconfig is installed
-                ensure_installed = { 
+                ensure_installed = {
                     "lua_ls",
                     "pyright",
                     "clangd",
                     "jsonls",
                     "bashls",
                     "yamlls",
-                    "tsserver",
                 }, -- Example LSPs to install
             },
         },
@@ -156,10 +155,13 @@ return {
                     null_ls.builtins.formatting.black.with({
                         extra_args = { "--line-length", limit },
                     }),
-                    -- null_ls.builtins.formatting.sql_formatter,
-                    -- null_ls.builtins.formatting.biome,
-                    -- null_ls.builtins.formatting.prettier,
-                    -- null_ls.builtins.formatting.latexindent,
+                    --null_ls.builtins.formatting.sql_formatter,
+                    --null_ls.builtins.formatting.biome,
+                    --null_ls.builtins.formatting.prettier,
+                    --null_ls.builtins.formatting.latexindent,
+
+                    --null_ls.buildtins.diagnostics.ruff,
+                    --null_ls.buildtins.formatting.ruff
                 },
             })
         end,
