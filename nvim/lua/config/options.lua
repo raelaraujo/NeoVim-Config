@@ -7,7 +7,7 @@ vim.opt.smartindent = true    -- Smart indentation
 vim.opt.colorcolumn = "80"    -- Highlight column 80
 
 vim.opt.number = true         -- Show line numbers 
-vim.opt.relativenumber = true -- Show relative line numbers
+--vim.opt.relativenumber = true -- Show relative line numbers
 vim.opt.cursorline = true     -- Highlight the current line
 vim.opt.signcolumn = "yes"    -- Always show the sign column
 vim.opt.mouse = 'a'           -- Enable mouse support
@@ -17,6 +17,7 @@ vim.opt.clipboard = 'unnamedplus' -- Enable system clipboard
 
 vim.api.nvim_create_user_command("W", "w", {})
 vim.api.nvim_create_user_command("Q", "q", {})
+vim.api.nvim_create_user_command("X", "x", {})
 vim.api.nvim_create_user_command("Qa", "qa", {})
 
 vim.cmd([[ set guicursor= ]])

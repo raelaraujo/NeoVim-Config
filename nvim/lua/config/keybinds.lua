@@ -5,8 +5,9 @@ vim.keymap.set("n", "<keader>cd", vim.cmd.Ex)
 local themes = {
     "dracula",
     "onedark",
-    "tokyonight",
-    "catppuccin",
+    "tokyonight-night",
+    "catppuccin-mocha",
+    "kanagawa",
 }
 
 local function toggle_colorscheme()
