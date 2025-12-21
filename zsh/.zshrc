@@ -139,5 +139,10 @@ alias ....="cd ../../.."
 
 # git aliases
 alias gst="git status"
+#alias gd="git diff"
+alias gco="git checkout"
+alias gl="git log --oneline --graph --decorate --all"
 alias ga="git add"
 alias gc="git commit"
+alias gpo="git push origin"
+alias grb="git reset --hard HEAD~1"
