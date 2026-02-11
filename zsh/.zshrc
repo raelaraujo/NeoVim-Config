@@ -146,3 +146,6 @@ alias ga="git add"
 alias gc="git commit"
 alias gpo="git push origin"
 alias grb="git reset --hard HEAD~1"
+
+export EDITOR=nvim
+export VISUAL=nvim

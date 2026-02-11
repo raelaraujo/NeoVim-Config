@@ -29,3 +29,15 @@ local function toggle_colorscheme()
 end
 
 vim.keymap.set("n", "<leader>tt", toggle_colorscheme, { desc = "switch colorscheme" })
+
+local function disabable_diagnostic()
+    vim.diagnostic.disable()
+end
+
+vim.keymap.set("n", "<leader>dd", disabable_diagnostic, { desc = "disable diagnostic" })
+
+local function enable_diagnostic()
+    vim.diagnostic.enable()
+end
+
+vim.keymap.set("n", "<leader>de", enable_diagnostic, { desc = "enable diagnostic" })
