@@ -9,5 +9,5 @@ vim.diagnostic.config({
     },
 })
 
-vim.cmd.colorscheme("onedark")
+vim.cmd.colorscheme("dracula")
 -- vim.cmd.colorscheme("catppuccin")
