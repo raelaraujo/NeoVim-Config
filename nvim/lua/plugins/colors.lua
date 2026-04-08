@@ -1,5 +1,4 @@
 return {
-    -- One Dark theme 
     {
         "navarasu/onedark.nvim",
         lazy = false,
@@ -11,14 +10,18 @@ return {
         end
     },
 
-    -- Kanagawa
+    {
+        "dapovich/anysphere.nvim",
+        lazy = false,
+        priority = 1000,
+    },
+
     {
         "rebelot/kanagawa.nvim",
         lazy = false,
         priority = 1000
     },
 
-   -- Catppuccin theme
     {
         "catppuccin/nvim",
         name = "catppuccin",
@@ -26,14 +29,12 @@ return {
         priority = 1000,
     },
 
-    -- Tokyo Night theme
     {
         "folke/tokyonight.nvim",
         lazy = false,
         priority = 1000,
     },
 
-    -- Dracula theme
     {
         "dracula/vim",
         name = "dracula",

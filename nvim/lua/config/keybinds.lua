@@ -8,6 +8,7 @@ local themes = {
     "tokyonight-night",
     "catppuccin-mocha",
     "kanagawa",
+    "anysphere",
 }
 
 local function toggle_colorscheme()
@@ -24,7 +25,6 @@ local function toggle_colorscheme()
     local next_index = (current_index % #themes) + 1
     local next_theme = themes[next_index]
 
-    -- apply a new theme
     vim.cmd.colorscheme(next_theme)
 end
 
