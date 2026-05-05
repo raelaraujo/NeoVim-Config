@@ -9,5 +9,4 @@ vim.diagnostic.config({
     },
 })
 
-vim.cmd.colorscheme("anysphere")
--- vim.cmd.colorscheme("catppuccin")
+vim.cmd.colorscheme("kanagawa")
