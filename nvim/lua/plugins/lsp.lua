@@ -39,6 +39,7 @@ return {
                     "jsonls",
                     "bashls",
                     "yamlls",
+                    "texlab",
                 }, -- Example LSPs to install
             },
         },
