@@ -5,15 +5,9 @@ return {
         priority = 1000,
         config = function()
             require('onedark').setup {
-                style = 'darker',
+                style = 'warmer',
             }
         end
-    },
-
-    {
-        "dapovich/anysphere.nvim",
-        lazy = false,
-        priority = 1000,
     },
 
     {
@@ -25,12 +19,6 @@ return {
     {
         "catppuccin/nvim",
         name = "catppuccin",
-        lazy = false,
-        priority = 1000,
-    },
-
-    {
-        "folke/tokyonight.nvim",
         lazy = false,
         priority = 1000,
     },
