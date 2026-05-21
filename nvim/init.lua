@@ -9,4 +9,4 @@ vim.diagnostic.config({
     },
 })
 
-vim.cmd.colorscheme("onedark")
+vim.cmd.colorscheme("github_dark_high_contrast")

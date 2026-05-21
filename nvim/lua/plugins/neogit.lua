@@ -2,11 +2,11 @@ return {
   "NeogitOrg/neogit",
   dependencies = {
     "nvim-lua/plenary.nvim",
-    "sindrets/diffview.nvim"
+    "sindrets/diffview.nvim",
+    "nvim-tree/nvim-web-devicons",
   },
-  config = function()
-    require("neogit").setup({})
-  end
-},
-
-vim.keymap.set("n", "<leader>gg", ":Neogit<CR>", { silent = true })
+  config = true,
+  keys = {
+    { "<leader>gg", function() require("neogit").open({ kind = "floating" }) end, desc = "Open Neogit" },
+  },
+}
