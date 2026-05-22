@@ -5,7 +5,7 @@ vim.keymap.set("n", "<keader>cd", vim.cmd.Ex)
 local themes = {
     "dracula",
     "onedark",
-    "github",
+    "github_dark_high_contrast",
     "catppuccin-mocha",
     "kanagawa",
 }
