@@ -8,6 +8,7 @@ local themes = {
     "github_dark_dimmed",
     "catppuccin-mocha",
     "kanagawa-dragon",
+    "tokyonight-night",
 }
 
 local function toggle_colorscheme()

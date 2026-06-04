@@ -9,4 +9,4 @@ vim.diagnostic.config({
     },
 })
 
-vim.cmd.colorscheme("kanagawa-dragon")
+vim.cmd.colorscheme("onedark")
