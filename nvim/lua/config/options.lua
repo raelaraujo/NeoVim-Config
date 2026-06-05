@@ -19,6 +19,12 @@ vim.opt.undofile = true       -- Persistent undo history
 vim.opt.clipboard = 'unnamedplus' -- Enable system clipboard
 
 vim.api.nvim_create_user_command("W", "w", {})
+vim.api.nvim_create_user_command("Wa", "wa", {})
+vim.api.nvim_create_user_command("WA", "wa", {})
+vim.api.nvim_create_user_command("WQA", "wqa", {})
+vim.api.nvim_create_user_command("WQa", "wqa", {})
+vim.api.nvim_create_user_command("Wqa", "wqa", {})
+
 vim.api.nvim_create_user_command("Q", "q", {})
 vim.api.nvim_create_user_command("X", "x", {})
 vim.api.nvim_create_user_command("Qa", "qa", {})

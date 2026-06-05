@@ -1,6 +1,7 @@
 {
     "diagnostics.globals": [
-        "vim"
+        "vim",
+        "neoscroll"
     ],
     "diagnostics.disable": [
         "unused-local"
