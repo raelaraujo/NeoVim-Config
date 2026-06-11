@@ -4,8 +4,9 @@ return {
           priority = 1000, -- make sure to load this before all the other start plugins
           config = function()
             require('onedark').setup {
-              style = 'deep'
-                }
+              style = 'deep',
+              -- colors = { bg0 = '#1d1d1d'},
+            }
                 require('onedark').load()
         end
     },
