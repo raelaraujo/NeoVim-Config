@@ -7,7 +7,7 @@ local themes = {
     "onedark",
     "github_dark_dimmed",
     "catppuccin-mocha",
-    "kanagawa-dragon",
+    "kanagawa",
     "tokyonight-night",
 }
 
