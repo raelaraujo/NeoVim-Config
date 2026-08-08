@@ -11,7 +11,7 @@ return {
         opts = {
             window = {
                 position = "left",
-                width = 60,
+                width = 30,
             },
             filesystem = {
                filtered_items = {

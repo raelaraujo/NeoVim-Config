@@ -15,6 +15,18 @@ return {
       "loctvl842/monokai-pro.nvim",
       lazy = false,
       priority = 1000,
+      config = function()
+        require("monokai-pro").setup({
+          override = function(scheme)
+            return {
+              Normal         = { bg = "#181818" },
+              texCmd         = { fg = "#65bc6c" },
+              texDelim       = { fg = "#e5487a" },
+              texEnvArgName  = { fg = "#fd9353" },
+            }
+          end,
+        })
+      end,
     },
 
     {
